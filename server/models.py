@@ -1,5 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import validates
+from sqlalchemy.orm import sessionmaker
 db = SQLAlchemy()
 
 class EmailAddress(db.Model):
